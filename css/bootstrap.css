@@ -1658,7 +1658,11 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+}
+.text-bloc {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .text-justify {
@@ -7682,10 +7686,8 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
-    background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
@@ -7858,6 +7860,11 @@ button.close {
 .visible-xs-inline,
 .visible-xs-inline-block {
     display: none !important
+}
+
+.social {
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 @media (max-width:767px) {
