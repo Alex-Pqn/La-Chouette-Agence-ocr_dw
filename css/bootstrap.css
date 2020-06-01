@@ -1432,12 +1432,11 @@ img {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -1661,8 +1660,9 @@ mark {
     text-align: center;
 }
 .text-bloc {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 27px;
 }
 
 .text-justify {
@@ -3562,6 +3562,13 @@ textarea.input-lg {
 }
 
 @media (min-width:768px) {
+    .img-responsive,
+    .img-responsive-2 {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
     .form-inline .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -5279,6 +5286,16 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-nav .open .dropdown-menu>li>a:focus,
     .navbar-nav .open .dropdown-menu>li>a:hover {
         background-image: none
+    }
+
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .img-responsive-2 {
+        min-width: 100%;
     }
 }
 
