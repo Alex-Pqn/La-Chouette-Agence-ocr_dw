@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 80px 50px;
 }
 
 .bloc-md {
@@ -265,11 +265,11 @@ a:hover {
 }
 
 .voffset {
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .row-no-gutters {
@@ -294,15 +294,14 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    margin: 5px 0 5px 0;
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -325,7 +324,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -360,6 +359,16 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+@media (max-width: 530px){
+    .logo-img{
+        width: 171px;
+        height: 32px
+    }
+    .navbar-toggle .icon-bar {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -505,6 +514,9 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+#bloc-8 {
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -516,18 +528,13 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
     margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
 }
 
 a[data-lightbox] {
@@ -655,11 +662,11 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 42px;
 }
 
 .hero-bloc-text-sub {
@@ -677,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -699,18 +706,22 @@ p {
     font-weight: 700;
 }
 
+.cta-title {
+    font-size: 28px;
+}
+
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -743,9 +754,17 @@ h4 {
     margin-bottom: 24px;
 }
 
+.portfolio-thumb-space {
+    margin-bottom: 50px;
+}
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+
+.portfolio-title {
+    font-size: 15px;
 }
 
 .avatar {
@@ -848,17 +867,32 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar-brand img {
+        min-height: 52px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
+
+@media only screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .navbar-brand img {
+        min-height: 62px;
+    }
+}
+
+
 
 @media (max-width: 991px) {
     .container {
@@ -872,10 +906,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +915,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1033,10 +1062,16 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .navbar-brand img {
+
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .navbar-brand img {
+        min-height: 45px;
     }
 }

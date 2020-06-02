@@ -1432,12 +1432,11 @@ img {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 .img-rounded {
@@ -1658,7 +1657,12 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+}
+.text-bloc {
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 27px;
 }
 
 .text-justify {
@@ -3558,6 +3562,13 @@ textarea.input-lg {
 }
 
 @media (min-width:768px) {
+    .img-responsive,
+    .img-responsive-2 {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
     .form-inline .form-group {
         display: inline-block;
         margin-bottom: 0;
@@ -5124,7 +5135,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -5275,6 +5286,16 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-nav .open .dropdown-menu>li>a:focus,
     .navbar-nav .open .dropdown-menu>li>a:hover {
         background-image: none
+    }
+
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .img-responsive-2 {
+        min-width: 100%;
     }
 }
 
@@ -7600,7 +7621,6 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
     background-repeat: repeat-x
 }
 
@@ -7611,7 +7631,6 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
     background-repeat: repeat-x
 }
 
@@ -7682,10 +7701,8 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
-    background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
@@ -7858,6 +7875,11 @@ button.close {
 .visible-xs-inline,
 .visible-xs-inline-block {
     display: none !important
+}
+
+.social {
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 @media (max-width:767px) {
