@@ -795,7 +795,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: rgb(212, 106, 56);
+    background-color: rgb(153, 56, 11);
 }
 
 .tc-white {
@@ -814,6 +814,11 @@ h4 {
 
 .ltc-white {
     color: rgb(224, 224, 224)!important;
+}
+
+.ltc-white-contact1 {
+    color: rgb(216, 204, 204)!important;
+    font-size: 1.1em;
 }
 
 .text-collab {
