@@ -4236,7 +4236,7 @@ fieldset[disabled] .btn-link:hover {
 
 .btn-block {
     display: block;
-    width: 100%
+    width: 100%;
 }
 
 .btn-block+.btn-block {
@@ -5291,13 +5291,20 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
     .img-responsive {
         display: block;
-        max-width: 100%;
+        min-width: 100%;
         height: auto;
+        padding: 30px;
     }
     
-    .img-responsive-2 {
-        min-width: 100%;
+    @media (min-width:768px) {
+        .img-responsive,
+        .img-responsive-2 {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
     }
+
 }
 
 @media (min-width:768px) {
