@@ -514,6 +514,10 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+.footer-text {
+    color: #ffffff!important;
+}
+
 #bloc-8 {
 }
 
@@ -747,7 +751,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: rgb(224, 224, 224)!important;
 }
 
 .portfolio-thumb {
@@ -790,11 +794,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: rgb(212, 106, 56);
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(255, 255, 255)!important;
 }
 
 .btn-atomic-tangerine {
@@ -808,7 +812,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: rgb(224, 224, 224)!important;
 }
 
 .ltc-white:hover {
