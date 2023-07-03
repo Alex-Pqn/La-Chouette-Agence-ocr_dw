@@ -6,3 +6,9 @@
 - Réaliser un [rapport d'optimisation ](Rapports/Rapport%20d'optimisation.pdf) sur la vitesse de chargement des pages
 - Optimiser le chargement des pages
 - Code passé dans le validateur W3C
+
+---
+
+![CV](/img/La%20Chouette%20Agence.png)
+
+![CV](/img/La%20Chouette%20Agence%202.png)
