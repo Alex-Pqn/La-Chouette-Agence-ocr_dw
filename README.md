@@ -21,5 +21,3 @@ Vous travaillez pour l'agence La Panth√®re, une grande agence de web design bas√
 ---
 
 ![CV](/img/La%20Chouette%20Agence.png)
-
-![CV](/img/La%20Chouette%20Agence%202.png)
