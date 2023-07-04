@@ -1,4 +1,4 @@
-## Optimiser un site web existant
+## Optimiser un site web existant - La Chouette Agence
 ### P4 - OpenClassrooms "Développeur Web"
 - Modifications en HTML5/CSS3
 - [Analyse de l’état actuel de SEO](Rapports/Analyse%20du%20SEO.pdf) du site web
