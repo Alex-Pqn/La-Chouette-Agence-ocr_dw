@@ -30,6 +30,8 @@ Vous travaillez pour l'agence La PanthÃ¨re, une grande agence de web design basÃ
 
 Open the [index.html](/index.html) file in your browser or use an extension to start a local server on this file.
 
+> A [Github Pages preview](https://alex-pqn.github.io/La-Chouette-Agence-ocr_dw/) is also available for this project
+
 ---
 
 ### Preview
