@@ -12,7 +12,7 @@ Vous travaillez pour l'agence La Panthère, une grande agence de web design bas�
 - Amélioration du SEO du site. Il faudra ensuite optimiser notre site en appliquant tes 10 recommandations à son contenu et à son code source. Tu devras pour cela fournir le code source complet de la version améliorée du site. Le site doit passer le W3C pour HTML et CSS.
 - La vitesse de chargement des pages du site a un impact sur notre classement dans les résultats de recherche. Dans tes différentes recommandations, j’aimerais que tu prennes des mesures pour accélérer la vitesse de chargement, et que tu me démontres que cela fonctionne, grâce à des captures d’écran comparatives entre la version du site actuelle et celle que tu auras optimisée, fourni dans un rapport d’optimisation.
 
-#### Objectifs
+#### Objectifs réalisés
 
 - Modifications réalisées en HTML5/CSS3
 - [Analyse de l’état actuel de SEO](Rapports/Analyse%20du%20SEO.pdf) du site web
